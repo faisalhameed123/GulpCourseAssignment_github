@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+<body>
+    <img src="./images/Driving licence.png" alt="" srcset="">
+
+    
+</body>
+</html> --><!Doctype html><html><head><link rel="stylesheet" type="text/css" href="./dist/css/styles.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head><table style="width:100%; background-color:gainsboro"><tr><td><div id="menuToggle"><input type="checkbox"> <span></span> <span></span> <span></span><ul id="menu"><a href="index.html"><li>Home</li></a><a href="ourtours.html"><li>Ourtours</li></a><a href="aboutus.html"><li>About us</li></a><a href="contactus.html"><li>Contact us</li></a></ul></div></td><td><header><h1>Re-Cycle</h1></header></td><td style="width: 20%"><div class="search-container"><form><input type="text" placeholder="Search.." name="search"> <button type="submit">Submit<i class="fa fa-search"></i></button></form></div></td></tr></table><body class="home"><center><!-- here goes new slider--><div class="slideshow-container"><div class="mySlides fade"><div class="numbertext"></div><img src="./dist/images/main1cycle.jpg" style="width:60%"><div class="text">Mountain Biking</div></div><div class="mySlides fade"><div class="numbertext"></div><img src="./dist/images/bicycle1.jpg" style="width:60%"><div class="text">Country Biking</div></div><div class="mySlides fade"><div class="numbertext"></div><img src="./dist/images/bicycle3.jpg" style="width:60%"><div class="text">City Biking</div></div></div><br><div style="text-align:center"><span class="dot"></span> <span class="dot"></span> <span class="dot"></span></div><!-- here goes new slider--><center><h2>Guided Cycletours</h2><br><h3>GUIDED CYCELTOURS IN NORWAY</h3><p>We offer a wide range of exciting bicycle adventures in the mountains, down by the fjord and along the coast in the land of the midnight sun. Steep hills wont take your breath away - the spectacular nature will.Our bicycle tours are designed for people wanting to bike with a tourguide. Our staff has biked all our routes and are very experienced, so when you make reservations, you will be given first-hand information about the landscape, road conditions and overnight accommodation site.</p><h3>Packed and ready to go</h3><br><img src="./dist/images/packed.jpg" width="50%"><br><br><p>You do not need to be an experienced cyclist, or spend much time planning, to participate in our trips just contact us by phone, by e-mail or book online. We offer tours that include comfortable accommodation in ready-made beds, dinner, breakfast and lunch packs, as well as thermos refills. You will also receive a tour map and a detailed tour description. Bike rental is possible for all our tours (for prices see each tour). Luggage transport is possible on some of the tours.</p><h3>Accommodations</h3><br><img src="./dist/images/Accommodation.jpg" width="50%"><br><br><p>After an adventurous day on your bicycle, you get to relax in charming hotels, Guesthouses or in a fishermans cabin. Your appetite will be voracious after a day in fresh air, so just find a comfortable seat at the dining table and enjoy a fragrant and delicious homemade meal. Then, after a good night's sleep in a soft, comfortable bed, you will be ready for new adventures.</p><h3>The weather</h3><br><img src="./dist/images/weather.jpg" width="50%"><br><br><p>Being in Norway, you must count on some rain in the summer, but it can also be warm, and pleasant. You will most likely experience a mixture of sun, clouds and some rain. Nevertheless be prepared: for an active holiday in Norway, a weatherproof coat needed! The normal summer temperatures in Norway are between 15ºC and 25ºC.</p></center><center><footer><h5>Copy Rights Reserved "Recycle" mfhameed.net</h5></footer></center></center></body><script>var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}</script></html>
